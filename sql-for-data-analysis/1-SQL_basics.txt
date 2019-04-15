@@ -1,0 +1,10 @@
+1. 
+SELECT id, account_id, occurred_at
+FROM orders;
+
+2.
+SELECT occured_at, account_id, channel
+FROM web_events
+LIMIT 15;
+
+3. 
