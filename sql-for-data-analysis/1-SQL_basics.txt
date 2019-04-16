@@ -10,3 +10,10 @@ LIMIT 15;
 3.
 ## ORDER BY is similar to sorting a sheet using a column. A key difference, however, is that using ORDER BY in a SQL query only has temporary effects, for the results of that query, unlike sorting a sheet by column in Excel or Sheets.
 The ORDER BY statement always comes in a query after the SELECT and FROM statements, but before the LIMIT statement. If you are using the LIMIT statement, it will always appear last.
+Pro Tip
+Remember DESC can be added after the column in your ORDER BY statement to sort in descending order, as the default is to sort in ascending order.
+SELECT *
+FROM demo.orders
+LIMIT 1000
+
+4. 
